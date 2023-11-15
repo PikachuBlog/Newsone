@@ -1,0 +1,53 @@
+*{
+    box-sizing: border-box;
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+
+}
+
+.container{
+    background-color:rgb(93, 90, 101);
+    min-width: 30%;
+    width: 40%;
+    
+    position: absolute;
+    top:10%;
+    left:20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;}
+
+
+
+
+
+    .input{
+    border-radius: 5px;
+    padding: 5px;
+    margin: 3px 0;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.row{
+    margin: 12px 0;
+    }
+
+    .button{
+        background-color: grey;
+        color: white;
+        border-radius: 12px;
+        margin: 0 1px;
+        padding: 5px 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        -ms-border-radius: 12px;
+        -o-border-radius: 12px;
+}
